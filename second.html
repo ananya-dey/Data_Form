@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" 
+  		content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  	<title>Data Field</title>
+  
+	<link rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+	<link 
+		href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" 
+		href="data.css">
+</head>
+
+<body>
+<div class="container">
+	<h1>This is the data form</h1>
+	<form>
+		<div class="form-group">
+			<label for="employment">Employment Status</label>
+			<div class="radio container">
+				<div>
+					<input type="radio" name="employment_Radio" id="employment_1" 
+					value="employment_option_1"> 
+					<span>Unemployed</span>
+				</div>
+				<div>
+					<input type="radio" name="employment_Radio" id="employment_2" 
+					value="employment_option_2"> 
+					<span>Looking for a better job</span>
+				</div>
+				<div>
+					<input type="radio" name="employment_Radio" id="employment_3" 
+					value="employment_option_3"> 
+					<span>Other: </span><input type="text" id="employment_other">
+				</div>
+			</div>	    
+		</div>
+		<div class="form-group">
+			<label for="work_location">Preferred Workplace Location</label>
+			<div class="checkbox container">
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_1" value="work_location_option_1"> 
+					<span>Uttara</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_2" value="work_location_option_2"> 
+					<span>Dhanmondi</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_3" value="work_location_option_3"> 
+					<span>Farmgate</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_4" value="work_location_option_4"> 
+					<span>Mirpur</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_5" value="work_location_option_5"> 
+					<span>Motijhil</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_6" value="work_location_option_6"> 
+					<span>Mohammadpur</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_7" value="work_location_option_7"> 
+					<span>Gulshan</span>
+				</div>
+				<div>
+					<input type="checkbox" name="work_location_checkbox" 
+					id="work_location_8" value="work_location_option_8"> 
+					<span>Other: </span><input type="text" id="work_location_other">
+				</div>
+			</div>	    
+		</div>
+		<div class="form-group">
+	   		<div class="dropdown">
+	   			<label for="daily_income">Current Daily Income ( in taka )</label>
+	   			<select class="form-control">
+					<option>Choose</option>
+					<option> < 100</option>
+					<option>100 - 200</option>
+					<option>200 - 300</option>
+					<option>300 - 500</option>
+					<option>500 - 800</option>
+					<option>800 - 1000</option>
+					<option> > 1000</option>
+				</select>
+	   		</div>
+	  	</div>
+	  	<div class="form-group">
+	    	<label for="primary_prof">Primary Profession</label>
+	    	<input type="text" class="form-control" id="primary_prof">
+	  	</div>
+	  	<div class="form-group">
+	   		<div class="dropdown">
+	   			<label for="primary_prof_exp_level">Experience Level ( primary profession )</label>
+	   			<select class="form-control">
+					<option>Choose</option>
+					<option> < 6 months</option>
+					<option>6 - 12 months</option>
+					<option> <= 2 years</option>
+					<option>3 - 5 years</option>
+					<option> > 5 years</option>
+				</select>
+	   		</div>
+	  	</div>
+	  	<div class="form-group">
+	    	<label for="secondary_prof">Secondary Profession ( optional )</label>
+	    	<input type="text" class="form-control" id="secondary_prof">
+	  	</div>
+	  	<div class="form-group">
+	   		<div class="dropdown">
+	   			<label for="secondary_prof_exp_level">Experience Level ( secondary profession )</label>
+	   			<select class="form-control">
+					<option>Choose</option>
+					<option> < 6 months</option>
+					<option>6 - 12 months</option>
+					<option> <= 2 years</option>
+					<option>3 - 5 years</option>
+					<option> > 5 years</option>
+				</select>
+	   		</div>
+	  	</div>
+	  	<div class="form-group">
+			<label for="communication">Communication standard</label>
+			<div class="radio-inline container">
+				<label class="radio-inline">
+				  <input type="radio" name="communication_Radio" id="communication_Radio1" value="communication_option_1"> 1
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="communication_Radio" id="communication_Radio_2" value="communication_option_2"> 2
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="communication_Radio" id="communication_Radio_3" value="communication_option_3"> 3
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="communication_Radio" id="communication_Radio_4" value="communication_option_4"> 4
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="communication_Radio" id="communication_Radio_5" value="communication_option_5"> 5
+				</label>
+			</div>	    
+		</div>
+		<div class="form-group">
+	    	<label for="comments">ANY COMMENTS</label>
+	    	<input type="text" class="form-control" id="comments">
+	  	</div>
+		<div class="form-group">
+			<button type="button" class="btn btn-default">
+				<a href="data.html">
+					<span>Back</span>
+				</a>
+			</button>
+			<button type="submit"  class="btn btn-primary">Submit</button>
+		</div>
+		
+	</form>
+</div>
+	
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src=""></script>
+</body>
+
+</html>
